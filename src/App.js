@@ -1,9 +1,18 @@
 import './App.css';
+import Home from './components/home/Home';
+import Footer from './components/sharedPages/Footer';
+import NavBar from './components/sharedPages/NavBar';
 
 function App() {
   return (
     <div>
-      <h1 className='text-red-500'>Main p0-age</h1>
+      <div className="max-w-7xl p-10 mx-auto scroll-smooth">
+        <div className='sticky top-0 z-50'>
+          <NavBar></NavBar>
+        </div>
+        <Home></Home>
+      </div>
+      <Footer></Footer>
     </div>
   );
 }
