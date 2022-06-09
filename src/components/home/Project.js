@@ -8,7 +8,7 @@ const Project = ({project}) => {
             whileHover={{ translateY: -15 }}
             whileTap={{ scale: 1.05 }}
             className="card bg-base-100 shadow-xl">
-            <img src={image} alt="Shoes" />
+            <img src={image} alt="Projects pic" />
             <div className="card-body">
                 <div className='mb-5'>
                     <h2 className="card-title text-3xl mb-5">{name}</h2>
