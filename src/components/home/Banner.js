@@ -1,10 +1,97 @@
 import React from 'react';
+import Particles from "react-tsparticles";
 import { motion } from 'framer-motion';
 import TypewriterComponent from 'typewriter-effect';
 
+
 const Banner = () => {
+    const particlesInit = (main) => {
+        console.log(main);
+    };
+    const particlesLoaded = (container) => {
+        console.log(container);
+    };
+
     return (
-        <div className="hero mb-32">
+        <div id="hero" className="hero mb-32">
+            <Particles
+                id="tsparticles"
+                init={particlesInit}
+                loaded={particlesLoaded}
+                options={{
+                    fpsLimit: 60,
+                    interactivity: {
+                        events: {
+                            onClick: {
+                                enable: true,
+                                mode: "push",
+                            },
+                            onHover: {
+                                enable: true,
+                                mode: "repulse",
+                            },
+                            resize: true,
+                        },
+                        modes: {
+                            bubble: {
+                                distance: 100,
+                                duration: 2,
+                                opacity: 0.8,
+                                size: 40,
+                            },
+                            push: {
+                                quantity: 4,
+                            },
+                            repulse: {
+                                distance: 200,
+                                duration: 0.4,
+                            },
+                        },
+                    },
+                    particles: {
+                        color: {
+                            value: "#ffffff",
+                        },
+                        links: {
+                            color: "#ffffff",
+                            distance: 150,
+                            enable: true,
+                            opacity: 0.5,
+                            width: 1,
+                        },
+                        collisions: {
+                            enable: true,
+                        },
+                        move: {
+                            direction: "none",
+                            enable: true,
+                            outModes: {
+                                default: "bounce",
+                            },
+                            random: false,
+                            speed: 6,
+                            straight: false,
+                        },
+                        number: {
+                            density: {
+                                enable: true,
+                                area: 800,
+                            },
+                            value: 80,
+                        },
+                        opacity: {
+                            value: 0.5,
+                        },
+                        shape: {
+                            type: "circle",
+                        },
+                        size: {
+                            value: { min: 1, max: 5 },
+                        },
+                    },
+                    detectRetina: true,
+                }}
+            />
             <div className="hero-content flex-col w-full justify-around lg:flex-row-reverse">
                 <motion.div
                     initial={{ opacity: 0, x: 50, scale: 0.9 }}

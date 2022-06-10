@@ -4,7 +4,7 @@
         "name": "BD Car Parts",
         "type": "Manufacturing Company Website",
         "image": "images/screen1.png",
-        "description": "This is a full-stack responsive react project where dealers can buy tools in bulk. Users can go to the dashboard and pay for or cancel their orders. Only admins see all orders and their payment status in the dashboard. They can also ship paid orders. Admins can make normal users admin and add or delete products.",
+        "description": "This is a full-stack responsive react project where dealers can buy tools in bulk. Users can go to the dashboard and pay for or cancel their orders. Only admins see all orders and their payment status in the dashboard. They can also ship paid orders. Admins can make normal users admin and add or delete products. Data stored in mongodb database. Used jwt Token for more secure.",
         "links": [
             {
                 "id": 31,
@@ -28,7 +28,7 @@
         "name": "AC Stock House",
         "type": "Inventory Manager Website",
         "image": "images/screen2.png",
-        "description": "This is another full stack responsive web application to manage store inventory. Where users can update the stock of a product by restocking or delivering products. The user can add or delete products from the list. Users can report bugs from the bug report section on the home page.",
+        "description": "This is another full stack responsive web application to manage store inventory. Where users can update the stock of a product by restocking or delivering products. The user can add or delete products from the list. Users can report bugs from the bug report section on the home page. Used jwt Token for more secure. Data stored in mongodb database.",
         "links": [
             {
                 "id": 41,

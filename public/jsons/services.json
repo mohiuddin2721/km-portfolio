@@ -1,21 +1,21 @@
 [
     {
         "id": 11,
-        "image": "images/arts/html-css.svg",
+        "image": "images/html&css.png",
         "title": "Plain HTML and CSS website",
         "description": "I can develop pixel perfect fully responsive websites with HTML and CSS from provided figma design.",
         "technologyUsed": ["HTML", "CSS", "JavaScript"]
     },
     {
         "id": 12,
-        "image": "images/arts/react.svg",
-        "title": "SPA with React",
+        "image": "images/react&tailwind.png",
+        "title": "React with Bootstrap and Tailwind",
         "description": "I can develop fast and fully responsive single page React web apps with routing(protected and nested), authentication etc.",
-        "technologyUsed": ["JavaScript", "React", "Firebase"]
+        "technologyUsed": ["React", "Bootstrap", "Tailwind", "Firebase"]
     },
     {
         "id": 13,
-        "image": "images/arts/mern.svg",
+        "image": "images/mongodb&node.png",
         "title": "MERN stack web application",
         "description": "I can develop a full stack web app using MongoDB, Express, React and Node. With authorization features like JWT, admin role, payment system etc.",
         "technologyUsed": ["MongoDB", "Express", "React", "Node"]
