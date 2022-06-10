@@ -1,7 +1,22 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { motion } from 'framer-motion';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_u94fzar', 'template_yvw6bar', form.current, 'Mr0d1ZNZNJ-4wFsMt')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+            e.target.reset();
+    };
+
     return (
         <motion.div
             initial={{ opacity: 0, y: 50 }}
@@ -27,8 +42,7 @@ const Contact = () => {
                 </div>
                 <div className="card w-full shadow-2xl bg-base-100 col-span-5 lg:col-span-3">
                     <form
-                        action=""
-                        method=""
+                        ref={form} onSubmit={sendEmail}
                         className="card-body"
                     >
                         <div className="form-control">
@@ -38,7 +52,7 @@ const Contact = () => {
                             <input
                                 type="text"
                                 placeholder="Your Name"
-                                name="name"
+                                name="user_name"
                                 className="input input-bordered"
                             />
                         </div>
@@ -49,7 +63,7 @@ const Contact = () => {
                             <input
                                 type="email"
                                 placeholder="Your Email"
-                                name="email"
+                                name="user_email"
                                 className="input input-bordered"
                             />
                         </div>
