@@ -8,7 +8,7 @@ const AboutMe = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: 'easeInOut' }}
             className="hero mb-32">
-            <div className="hero-content w-full flex-col justify-between lg:flex-row">
+            <div id='aboutMe' className="hero-content w-full flex-col justify-between lg:flex-row">
                 <div className='mask mask-circle max-w-sm mb-12 lg:mb-0'>
                     <img src="images/pic1.jpg" className="" alt='about me' />
                 </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollToTop from 'react-scroll-to-top';
 import AboutMe from './AboutMe';
 import Banner from './Banner';
 import Contact from './Contact';
@@ -15,6 +16,10 @@ const Home = () => {
             <Services></Services>
             <Projects></Projects>
             <Contact></Contact>
+            <ScrollToTop 
+            smooth 
+            color='green'
+            />
         </div>
     );
 };

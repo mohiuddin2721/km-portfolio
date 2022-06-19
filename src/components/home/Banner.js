@@ -1,14 +1,14 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import TypewriterComponent from 'typewriter-effect';
-import Particle from './Particle';
+// import Particle from './Particle';
 
 
 const Banner = () => {
 
     return (
         <div id="hero" className="hero mb-32">
-            <Particle></Particle>
+            {/* <Particle></Particle> */}
             <div className="hero-content flex-col w-full justify-around lg:flex-row-reverse">
                 <motion.div
                     initial={{ opacity: 0, x: 50, scale: 0.9 }}

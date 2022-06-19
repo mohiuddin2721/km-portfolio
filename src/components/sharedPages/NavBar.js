@@ -1,10 +1,14 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
     const navbarItems = <>
+        <li className='mx-auto lg:mr-4'><Link to="/home">Home</Link></li>
         <li className='mx-auto lg:mr-4'><a href='#skills'>Skills</a></li>
         <li className='mx-auto lg:mr-4'><a href='#expertise'>Expertise</a></li>
+        <li className='mx-auto lg:mr-4'><a href='#aboutMe'>AboutMe</a></li>
+        <li className='mx-auto lg:mr-4'><Link to="/blog">Blog</Link></li>
         <li className='mx-auto lg:mr-4'><a href='#portfolio'>Projects</a></li>
         <li><a href='https://drive.google.com/file/d/1C0e3zDmnhyNpamUijjdgTgobeNpkqECS/view?usp=sharing' target='_blank' className="btn btn-primary">Download Resume</a></li>
     </>
