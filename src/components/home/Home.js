@@ -8,6 +8,11 @@ import Services from './Services';
 import Skills from './Skills';
 
 const Home = () => {
+    const style = {
+        background: "#5FD068",
+        borderRadius: "50%"
+    }
+
     return (
         <div>
             <Banner></Banner>
@@ -16,9 +21,12 @@ const Home = () => {
             <Services></Services>
             <Projects></Projects>
             <Contact></Contact>
-            <ScrollToTop 
-            smooth 
-            color='green'
+            <ScrollToTop
+                smooth
+                top="100"
+                width="40"
+                height="20"
+                style={style}
             />
         </div>
     );
