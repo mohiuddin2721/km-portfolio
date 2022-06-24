@@ -20,7 +20,7 @@ const AboutMe = () => {
                         <br /> <br />
                         I always try to learn new technologies continuously for survival in this tech-based world. I always enjoy coding and it’s my passion.
                     </p>
-                    <a href='#portfolio' className="btn btn-primary">Recent Projects</a>
+                    <a href='#portfolio' className="btn btn-sm btn-primary">Recent Projects</a>
                 </div>
             </div>
         </motion.div>

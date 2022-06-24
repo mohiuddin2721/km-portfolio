@@ -8,8 +8,8 @@ const NavBar = () => {
         <li className='mx-auto lg:mr-4'><a href='#skills'>Skills</a></li>
         <li className='mx-auto lg:mr-4'><a href='#expertise'>Expertise</a></li>
         <li className='mx-auto lg:mr-4'><a href='#aboutMe'>AboutMe</a></li>
+        <li className='mx-auto lg:mr-4'><a href='#projects'>Projects</a></li>
         <li className='mx-auto lg:mr-4'><Link to="/blog">Blog</Link></li>
-        <li className='mx-auto lg:mr-4'><a href='#portfolio'>Projects</a></li>
         <li><a href='https://drive.google.com/file/d/1C0e3zDmnhyNpamUijjdgTgobeNpkqECS/view?usp=sharing' target='_blank'>Resume</a></li>
     </>
     return (
@@ -20,7 +20,7 @@ const NavBar = () => {
             className="navbar bg-base-100 mb-32"
         >
             <div className="navbar-start">
-                <p className="normal-case text-xl">K M Mohiuddin Patwary</p>
+                <Link to="/" className="normal-case text-xl">KM MP</Link>
             </div>
             <div className="dropdown flex navbar-end">
                 <label tabIndex="0" className="btn btn-ghost lg:hidden self-end">

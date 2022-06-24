@@ -5,6 +5,9 @@ import TypewriterComponent from 'typewriter-effect';
 
 
 const Banner = () => {
+    const profilePicBorder = {
+        marginTop: '-60px'
+    }
 
     return (
         <div id="hero" className="hero mb-32">
@@ -14,9 +17,10 @@ const Banner = () => {
                     initial={{ opacity: 0, x: 50, scale: 0.9 }}
                     animate={{ opacity: 1, x: 0, scale: 1 }}
                     transition={{ duration: 1, ease: "easeInOut" }}
+                    style={profilePicBorder}
                     className='mask mask-circle max-w-sm mb-12 lg:mb-0'
                 >
-                    <img src="images/profile.jpeg" alt='me' />
+                    <img src="images/profile.png" alt='me' />
                 </motion.div>
                 <motion.div
                     initial={{ opacity: 0, x: -50, scale: 0.9 }}
@@ -24,23 +28,12 @@ const Banner = () => {
                     transition={{ duration: 1, ease: "easeInOut" }}
                     className='max-w-2xl'
                 >
-                    <h1 className="text-5xl font-semibold mb-5">Myself K M Mohiuddin Patwary</h1>
-                    <div className="text-3xl leading-relaxed mb-5">MERN-Stack Web Developer With Expertise on
-                        <span className='font-semibold'>
+                    <h1 className="text-5xl text-green-500 font-bold mb-5 uppercase">K M Mohiuddin Patwary</h1>
+                    <div className="text-3xl leading-relaxed font-bold mb-5 uppercase">Web Developer With Expertise on
+                        <span className='font-bold text-green-600'>
                             <TypewriterComponent
                                 options={{
-                                    strings: ['HTML5', 'CSS3', 'JavaScript', 'ReactJS'],
-                                    deleteSpeed: 50,
-                                    pauseFor: 500,
-                                    autoStart: true,
-                                    loop: true,
-                                }}
-                            />
-                        </span>
-                        <span className='font-semibold'>
-                            <TypewriterComponent
-                                options={{
-                                    strings: ['Mongodb', 'Nodejs', 'JWT Token', 'firebase'],
+                                    strings: ['FRONTEND DEVELOPER', 'MERN DEVELOPER', 'BACKEND DEVELOPER', 'REACT DEVELOPER'],
                                     deleteSpeed: 50,
                                     pauseFor: 500,
                                     autoStart: true,
@@ -49,7 +42,7 @@ const Banner = () => {
                             />
                         </span>
                     </div>
-                    <a href="https://drive.google.com/file/d/1C0e3zDmnhyNpamUijjdgTgobeNpkqECS/view?usp=sharing" target="_blank" className="btn btn-primary">Resume</a>
+                    <a href="https://drive.google.com/file/d/1C0e3zDmnhyNpamUijjdgTgobeNpkqECS/view?usp=sharing" target="_blank" className="btn btn-sm btn-primary">Resume</a>
                 </motion.div>
             </div>
         </div>

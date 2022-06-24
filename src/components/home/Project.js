@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const Project = ({project}) => {
+const Project = ({ project }) => {
     const { name, type, image, description, links } = project;
     return (
         <motion.div
@@ -21,7 +21,7 @@ const Project = ({project}) => {
                     }
                 </div>
             </div>
-        </motion.div>
+        </motion.div >
     );
 };
 

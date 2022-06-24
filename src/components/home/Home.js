@@ -17,9 +17,9 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <AboutMe></AboutMe>
-            <Skills></Skills>
             <Services></Services>
             <Projects></Projects>
+            <Skills></Skills>
             <Contact></Contact>
             <ScrollToTop
                 smooth
