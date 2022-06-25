@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const Service = ({service}) => {
-    const { title, image, description, technologyUsed } = service;
+    const { title, image, description } = service;
     return (
         <motion.div
             whileHover={{ translateY: -15 }}
@@ -13,11 +13,6 @@ const Service = ({service}) => {
             <div className="card-body">
                 <h2 className="card-title text-3xl mb-5">{title}</h2>
                 <p className='leading-relaxed'>{description}</p>
-                <div className="card-actions justify-start">
-                    {
-                        technologyUsed.map((technology, index) => <div key={index} className="badge badge-outline">{technology}</div>)
-                    }
-                </div>
             </div>
         </motion.div>
     );

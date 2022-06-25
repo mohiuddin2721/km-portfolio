@@ -1,23 +1,38 @@
 [
     {
-        "id": 11,
+        "id": 1,
         "image": "images/html&css.png",
-        "title": "Plain HTML and CSS website",
-        "description": "I can develop pixel perfect fully responsive websites with HTML and CSS from provided figma design.",
-        "technologyUsed": ["HTML", "CSS", "JavaScript"]
+        "title": "Web Design",
+        "description": "I design attractive , modern and eye catching websites which catches Visitor's Eye."
     },
     {
-        "id": 12,
+        "id": 2,
         "image": "images/react&tailwind.png",
-        "title": "React with Bootstrap and Tailwind",
-        "description": "I can develop fast and fully responsive single page React web apps with routing(protected and nested), authentication etc.",
-        "technologyUsed": ["React", "Bootstrap", "Tailwind", "Firebase"]
+        "title": "Mern Development",
+        "description": "I'm a MERN Developer .I can build your full stack website with MongoDB, ExpressJS, ReactJS, NodeJS. I can be your Mern Developer."
     },
     {
-        "id": 13,
+        "id": 3,
+        "image": "images/react&tailwind.png",
+        "title": "Responsive Design",
+        "description": "I also design Responsive Websites for that You can use your website in any devices."
+    },
+    {
+        "id": 4,
+        "image": "images/react&tailwind.png",
+        "title": "React Development",
+        "description": "I'm A React Developer. I have created many single page application using React.JS. I can be your React Developer."
+    },
+    {
+        "id": 5,
+        "image": "images/react&tailwind.png",
+        "title": "Javascript Development",
+        "description": "I'm a Javascript Developer. I have created many website using Javascript. I can be your Javascript Developer."
+    },
+    {
+        "id": 6,
         "image": "images/mongodb&node.png",
-        "title": "MERN stack web application",
-        "description": "I can develop a full stack web app using MongoDB, Express, React and Node. With authorization features like JWT, admin role, payment system etc.",
-        "technologyUsed": ["MongoDB", "Express", "React", "Node"]
+        "title": "Bugs Fix",
+        "description": "I can fix any bug in any of the technologies mentioned above. Or any other problem I can fix."
     }
 ]

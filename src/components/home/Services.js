@@ -20,6 +20,7 @@ const Services = () => {
             className="mb-32"
         >
             <div className='mb-10'>
+                <p className='uppercase text-sm text-green-500'>Services</p>
                 <h3 className='text-5xl font-semibold'>What I do:</h3>
             </div>
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-5'>

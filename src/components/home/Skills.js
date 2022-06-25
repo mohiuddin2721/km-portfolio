@@ -226,7 +226,7 @@ const Skills = () => {
             <div id='skills'>
                 <h1 className='mb-4 text-3xl font-bold' >Skills</h1>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4'>
-                    <div class="card bg-forest">
+                    <div className="card bg-forest">
                         <span className='text-green-500 m-2 text-sm'>EXPERTISE</span>
                         <div className="flex flex-wrap justify-center gap-5 pb-5">
                             {
@@ -238,7 +238,7 @@ const Skills = () => {
                         </div>
                     </div>
 
-                    <div class="card bg-forest drop-shadow-lg text-neutral-content">
+                    <div className="card bg-forest drop-shadow-lg text-neutral-content">
                         <span className='text-green-500 m-2 text-sm'>COMFORTABLE</span>
                         <div className="flex flex-wrap justify-center gap-5 pb-5">
                             {
@@ -249,7 +249,7 @@ const Skills = () => {
                             }
                         </div>
                     </div>
-                    <div class="card bg-forest drop-shadow-lg text-neutral-content">
+                    <div className="card bg-forest drop-shadow-lg text-neutral-content">
                         <span className='text-green-500 m-2 text-sm'>FAMILIAR</span>
                         <div className="flex flex-wrap justify-center gap-5 pb-5">
                             {
@@ -260,7 +260,7 @@ const Skills = () => {
                             }
                         </div>
                     </div>
-                    <div class="card bg-forest drop-shadow-lg text-neutral-content">
+                    <div className="card bg-forest drop-shadow-lg text-neutral-content">
                         <span className='text-green-500 m-2 text-sm'>TOOLS</span>
                         <div className="flex flex-wrap justify-center gap-5 pb-5">
                             {
