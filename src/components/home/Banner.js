@@ -31,8 +31,8 @@ const Banner = () => {
                     transition={{ duration: 1, ease: "easeInOut" }}
                     className='max-w-2xl'
                 >
-                    <h1 className="text-5xl text-green-500 font-bold mb-5 uppercase">K M Mohiuddin Patwary</h1>
-                    <div className="text-3xl leading-relaxed font-bold mb-5 uppercase">Web Developer With Expertise on
+                    <h1 className="md:text-4xl lg:text-5xl text-2xl text-green-500 font-bold mb-5 uppercase">K M Mohiuddin Patwary</h1>
+                    <div className="md:text-2xl lg:text-3xl text-xl leading-relaxed font-bold mb-5 uppercase">Web Developer With Expertise on
                         <span className='font-bold text-green-600'>
                             <TypewriterComponent
                                 options={{

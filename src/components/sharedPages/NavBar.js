@@ -6,7 +6,7 @@ const NavBar = () => {
     const navbarItems = <>
         <li className='mx-auto lg:mr-4'><Link to="/home">Home</Link></li>
         <li className='mx-auto lg:mr-4'><a href='#skills'>Skills</a></li>
-        <li className='mx-auto lg:mr-4'><a href='#expertise'>Expertise</a></li>
+        <li className='mx-auto lg:mr-4'><a href='#services'>Services</a></li>
         <li className='mx-auto lg:mr-4'><a href='/aboutMe'>AboutMe</a></li>
         <li className='mx-auto lg:mr-4'><a href='#projects'>Projects</a></li>
         <li className='mx-auto lg:mr-4'><Link to="/blog">Blog</Link></li>
