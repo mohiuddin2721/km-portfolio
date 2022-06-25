@@ -12,10 +12,11 @@
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-icons": "^4.4.0",
+    "react-particles-js": "^2.7.1",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "react-scroll-to-top": "^1.0.8",
-    "react-tsparticles": "^2.0.6",
+    "react-tsparticles": "^2.1.0",
     "tsparticles": "^2.0.6",
     "typewriter-effect": "^2.18.2",
     "web-vitals": "^2.1.4"

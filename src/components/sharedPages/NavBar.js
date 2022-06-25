@@ -7,7 +7,7 @@ const NavBar = () => {
         <li className='mx-auto lg:mr-4'><Link to="/home">Home</Link></li>
         <li className='mx-auto lg:mr-4'><a href='#skills'>Skills</a></li>
         <li className='mx-auto lg:mr-4'><a href='#expertise'>Expertise</a></li>
-        <li className='mx-auto lg:mr-4'><a href='#aboutMe'>AboutMe</a></li>
+        <li className='mx-auto lg:mr-4'><a href='/aboutMe'>AboutMe</a></li>
         <li className='mx-auto lg:mr-4'><a href='#projects'>Projects</a></li>
         <li className='mx-auto lg:mr-4'><Link to="/blog">Blog</Link></li>
         <li><a href='https://drive.google.com/file/d/1C0e3zDmnhyNpamUijjdgTgobeNpkqECS/view?usp=sharing' target='_blank'>Resume</a></li>
@@ -17,7 +17,7 @@ const NavBar = () => {
             initial={{ opacity: 0, y: -50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: 'easeInOut' }}
-            className="navbar bg-base-100 mb-32"
+            className="navbar bg-base-100"
         >
             <div className="navbar-start">
                 <Link to="/" className="normal-case text-xl">KM MP</Link>

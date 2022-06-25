@@ -1,6 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import TypewriterComponent from 'typewriter-effect';
+import Particles from 'react-particles-js';
+import particlesConfig from '../particlesConfig/particlesConfig';
 // import Particle from './Particle';
 
 
@@ -10,8 +12,9 @@ const Banner = () => {
     }
 
     return (
-        <div id="hero" className="hero mb-32">
+        <div id="hero" className="hero mb-16 relative h-screen">
             {/* <Particle></Particle> */}
+            <Particles className="h-full" params={particlesConfig} />
             <div className="hero-content flex-col w-full justify-around lg:flex-row-reverse">
                 <motion.div
                     initial={{ opacity: 0, x: 50, scale: 0.9 }}

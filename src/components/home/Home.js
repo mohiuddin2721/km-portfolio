@@ -16,10 +16,10 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
+            <Skills></Skills>
             <AboutMe></AboutMe>
             <Services></Services>
             <Projects></Projects>
-            <Skills></Skills>
             <Contact></Contact>
             <ScrollToTop
                 smooth
