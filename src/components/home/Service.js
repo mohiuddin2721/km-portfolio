@@ -1,18 +1,22 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const Service = ({service}) => {
-    const { title, image, description } = service;
+const Service = ({ service }) => {
+    const { title, description, icon, color } = service;
+
     return (
         <motion.div
             whileHover={{ translateY: -15 }}
             whileTap={{ scale: 1.05 }}
-            className="card bg-base-100 shadow-xl"
+            className="card hover:shadow hover:bg-stone-900 hover:shadow-current"
         >
-            <img src={image} alt="" className='p-10 h-1/2' />
-            <div className="card-body">
-                <h2 className="card-title text-3xl mb-5">{title}</h2>
-                <p className='leading-relaxed'>{description}</p>
+ {/* bg-base-100 */}
+            <div className='p-10'>
+                <div>
+                    <i className={`text-4xl text-${color}-500 mb-0`}>{icon}</i>
+                </div>
+                <h2 className="text-xl mb-5 mt-0">{title}</h2>
+                <p className='mt-0'>{description}</p>
             </div>
         </motion.div>
     );

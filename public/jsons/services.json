@@ -1,13 +1,13 @@
 [
     {
         "id": 1,
-        "image": "images/html&css.png",
+        "image": "images/web-design.jpg",
         "title": "Web Design",
         "description": "I design attractive , modern and eye catching websites which catches Visitor's Eye."
     },
     {
         "id": 2,
-        "image": "images/react&tailwind.png",
+        "image": "images/mern-stack.webp",
         "title": "Mern Development",
         "description": "I'm a MERN Developer .I can build your full stack website with MongoDB, ExpressJS, ReactJS, NodeJS. I can be your Mern Developer."
     },
