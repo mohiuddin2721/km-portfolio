@@ -44,7 +44,7 @@ const Services = () => {
             icon: <i><FaReact /></i>,
             title: "React Development",
             color: "teal",
-            description: "I'm A React Developer. I have created many single page application using React.JS. I can be your React Developer."
+            description: "As a react developer, I have created many single page application using React.JS. I can be your React Developer."
         },
         {
             id: 5,
@@ -72,7 +72,7 @@ const Services = () => {
         >
             <div className='mb-10'>
                 <p className='uppercase text-sm text-green-500'>Services</p>
-                <h3 className='text-5xl font-semibold'>What I do:</h3>
+                <h3 className='text-3xl font-semibold'>What I do:</h3>
             </div>
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-5'>
 

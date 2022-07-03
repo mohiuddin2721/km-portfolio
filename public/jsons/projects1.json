@@ -22,13 +22,6 @@
                 "title": "Server Side Code",
                 "url": "https://github.com/mohiuddin2721/bd-car-parts-server-jm-12"
             }
-        ],
-        "liveLinks": [
-            {
-                "id": 31,
-                "title": "BD Car Parts",
-                "url": "https://bd-car-parts.web.app/"
-            }
         ]
     },
     {
@@ -54,13 +47,6 @@
                 "title": "Server Side Code",
                 "url": "https://github.com/mohiuddin2721/ac-stock-house-server-jm-11"
             }
-        ],
-        "liveLinks": [
-            {
-                "id": 31,
-                "title": "AC Stock House",
-                "url": "https://ac-stock-house.web.app/"
-            }
         ]
     },
     {
@@ -80,13 +66,6 @@
                 "id": 52,
                 "title": "Client Side Code",
                 "url": "https://github.com/mohiuddin2721/shawon-legal-consultant-jm-10"
-            }
-        ],
-        "liveLinks": [
-            {
-                "id": 31,
-                "title": "shawon Legal Consultant",
-                "url": "https://shawon-legal-consultant.web.app/"
             }
         ]
     }
