@@ -8,9 +8,8 @@ const Service = ({ service }) => {
         <motion.div
             whileHover={{ translateY: -15 }}
             whileTap={{ scale: 1.05 }}
-            className="card hover:shadow hover:bg-stone-900 hover:shadow-current"
+            className="card duration-200 hover:shadow hover:bg-stone-900 hover:shadow-current"
         >
- {/* bg-base-100 */}
             <div className='p-10'>
                 <div>
                     <i className={`text-4xl text-${color}-500 mb-0`}>{icon}</i>

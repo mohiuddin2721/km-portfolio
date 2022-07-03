@@ -4,6 +4,7 @@ import Project from './Project';
 
 const Projects = () => {
     const [projects, setProjects] = useState([]);
+
     useEffect(() => {
         fetch("jsons/projects.json")
             .then(res => res.json())
@@ -22,7 +23,7 @@ const Projects = () => {
                 <span className='uppercase text-sm text-green-500'>Projects</span>
                 <h3 className='text-3xl font-semibold'>My Projects:</h3>
             </div>
-            <div className='grid grid-cols-1 lg:grid-cols-3 gap-5'>
+            <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-5'>
                 {
                     projects.map(project => <Project key={project.id} project={project}></Project>)
                 }
