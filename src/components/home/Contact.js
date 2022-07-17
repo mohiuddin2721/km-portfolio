@@ -1,8 +1,6 @@
 import React, { useRef } from 'react';
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
-import { BsFillPhoneVibrateFill } from 'react-icons/bs';
-import { AiOutlineMail } from 'react-icons/ai';
 
 const Contact = () => {
     const form = useRef();
