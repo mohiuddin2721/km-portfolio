@@ -46,6 +46,7 @@ const Banner = () => {
                         </span>
                     </div>
                     <a href="https://drive.google.com/file/d/1C0e3zDmnhyNpamUijjdgTgobeNpkqECS/view?usp=sharing" target="_blank" className="btn btn-sm btn-primary">Resume</a>
+                    <a href="#contact" className="btn btn-sm btn-primary ml-2">Hire me</a>
                 </motion.div>
             </div>
         </div>

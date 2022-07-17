@@ -1,6 +1,8 @@
 import React, { useRef } from 'react';
 import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
+import { BsFillPhoneVibrateFill } from 'react-icons/bs';
+import { AiOutlineMail } from 'react-icons/ai';
 
 const Contact = () => {
     const form = useRef();
@@ -24,14 +26,17 @@ const Contact = () => {
             transition={{ duration: 1, ease: 'easeInOut' }}
             className="hero mb-32"
         >
-            <div className="hero-content grid grid-cols-1 lg:grid-cols-5 p-0">
+            <div className="hero-content grid grid-cols-1 lg:grid-cols-5 p-0" id='contact'>
                 <div className="text-center lg:text-left col-span-5 lg:col-span-2">
                     <div className='mb-5'>
-                        <h1 className="text-5xl font-semibold mb-5">Get in touch</h1>
-                        <p className="text-xl leading-relaxed">Send me an email if you think I can help you out with any of your web related projects.</p>
+                        <h1 className="text-2xl text-green-500 font-semibold mb-0">K M Mohiuddin Patwary</h1>
+                        <p className='text-sm text-gray-500 mt-0'>| Mern Stack Developer |</p>
+                        <p className="text-sm leading-relaxed my-4">I am available here. Connect with me via call or Send me an email if you think I can help you out with any of your web related projects.</p>
+                        <p className=''><span className='text-sm text-gray-500'>Phone:</span> +8801680106149</p>
+                        <p className=''><span className='text-sm text-gray-500'>Email:</span> developermohiuddin1@gmail.com</p>
                     </div>
                     <div className='mb-5 lg:mb-0'>
-                        <h1 className="text-3xl font-semibold mb-5">Here I am</h1>
+                        <h1 className="text-sm text-green-500">Search me</h1>
                         <div className='grid grid-cols-4'>
                             <a className='lg:ml-0 mx-auto' target='_blank' href="https://www.linkedin.com/in/k-m-mohiuddin-patwary/"><img className='hover:scale-110' src="images/linkedin.svg" alt="my LinkedIn" /></a>
                             <a className='lg:ml-0 mx-auto' target='_blank' href="https://github.com/mohiuddin2721"><img className='hover:scale-110' src="images/github.svg" alt="my GitHub" /></a>

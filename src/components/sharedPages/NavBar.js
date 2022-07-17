@@ -9,6 +9,7 @@ const NavBar = () => {
         <li className='mx-auto lg:mr-4'><a href='#services'>Services</a></li>
         <li className='mx-auto lg:mr-4'><a href='/aboutMe'>AboutMe</a></li>
         <li className='mx-auto lg:mr-4'><a href='#projects'>Projects</a></li>
+        <li className='mx-auto lg:mr-4'><a href='#contact'>Contact</a></li>
         <li className='mx-auto lg:mr-4'><Link to="/blog">Blog</Link></li>
         <li><a href='https://drive.google.com/file/d/1C0e3zDmnhyNpamUijjdgTgobeNpkqECS/view?usp=sharing' target='_blank'>Resume</a></li>
     </>
