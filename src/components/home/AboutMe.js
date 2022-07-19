@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const AboutMe = () => {
     return (
@@ -18,7 +19,10 @@ const AboutMe = () => {
                     <p className='mb-2 text-sm'>Mern-Stack Web Developer</p>
                     <p>Hello gentleman, I am a mern stack web developer. I can create your website according to your wishes.</p>
                     <p className="leading-relaxed mb-5">I have creative knowledge of Mern-Stack Web Development. So I can create modern and eye-catching responsive websites. I always try to solve creative problems and learn new technologies continuously for survival in this tech-based world. I am looking to start my career as an entry-level frontend web developer with a reputed firm driven by technology.</p>
-                    <a href='#projects' className="btn btn-sm btn-primary">Recent Projects</a>
+                    
+                    <div className='mt-4'>
+                        <Link to='/' className='btn btn-sm btn-outline'>Back to home</Link>
+                    </div>
                 </div>
             </div>
         </motion.div>

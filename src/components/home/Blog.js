@@ -10,7 +10,7 @@ const Blog = () => {
                     <div className="divider m-1  bg-green-500 h-px"></div>
                 </div>
                 <p className=''>Keep an eye on my portfolio</p>
-                <Link to='/home' className='btn btn-sm btn-outline mt-2'>Back to home</Link>
+                <Link to='/' className='btn btn-sm btn-outline mt-2'>Back to home</Link>
             </div>
         </div>
     );

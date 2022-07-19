@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import { TbLivePhoto } from 'react-icons/tb';
 import { AiOutlineGithub } from 'react-icons/ai';
 import './EachProject.css';
+import { Link } from 'react-router-dom';
 
 const EachProject = () => {
     const [eachProject, setEachProject] = useState({});
@@ -234,6 +235,9 @@ const EachProject = () => {
                         </div>
                     ))}
                 </div>
+            </div>
+            <div className='mt-4'>
+                <Link to='/' className='btn btn-sm btn-outline'>Back to home</Link>
             </div>
         </div>
     );

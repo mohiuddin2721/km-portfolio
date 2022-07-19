@@ -38,7 +38,6 @@ const Contact = () => {
                         <div className='grid grid-cols-4'>
                             <a className='lg:ml-0 mx-auto' target='_blank' href="https://www.linkedin.com/in/k-m-mohiuddin-patwary/"><img className='hover:scale-110' src="images/linkedin.svg" alt="my LinkedIn" /></a>
                             <a className='lg:ml-0 mx-auto' target='_blank' href="https://github.com/mohiuddin2721"><img className='hover:scale-110' src="images/github.svg" alt="my GitHub" /></a>
-                            <a className='lg:ml-0 mx-auto' target='_blank' href="https://stackoverflow.com/users/19054529/k-m-mohiuddin-patwary"><img className='hover:scale-110' src="images/stackoverflow.svg" alt="my Stackoverflow" /></a>
                             <a className='lg:ml-0 mx-auto' target='_blank' href="https://www.facebook.com/mohiuddin.shawon.583/"><img className='hover:scale-110' src="images/facebook.svg" alt="my Facebook" /></a>
                         </div>
                     </div>
