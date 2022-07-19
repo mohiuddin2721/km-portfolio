@@ -14,7 +14,7 @@ function App() {
         <div className='sticky top-0 z-50'>
         <NavBar></NavBar>
           <Routes>
-            <Route path='/' element={<Home></Home>}></Route>
+            <Route path='home' element={<Home></Home>}></Route>
             <Route path='home' element={<Home></Home>}></Route>
             <Route path='blog' element={<Blog></Blog>}></Route>
             <Route path='project/:id' element={<EachProject></EachProject>}></Route>
