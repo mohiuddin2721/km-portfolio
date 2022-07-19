@@ -22,7 +22,7 @@ const NavBar = () => {
             className='navbar bg-base-100'
         >
             <div className="navbar-start">
-                <Link to="/home" className="normal-case text-xl">KM MP</Link>
+                <Link to="/" className="normal-case text-xl">KM MP</Link>
             </div>
             <div className="dropdown flex navbar-end">
                 <label tabIndex="0" className="btn btn-ghost lg:hidden self-end">
