@@ -1,6 +1,5 @@
 import React from 'react';
 import ScrollToTop from 'react-scroll-to-top';
-import AboutMe from './AboutMe';
 import Banner from './Banner';
 import Contact from './Contact';
 import Projects from './Projects';
@@ -17,7 +16,6 @@ const Home = () => {
         <div>
             <Banner></Banner>
             <Skills></Skills>
-            <AboutMe></AboutMe>
             <Services></Services>
             <Projects></Projects>
             <Contact></Contact>
